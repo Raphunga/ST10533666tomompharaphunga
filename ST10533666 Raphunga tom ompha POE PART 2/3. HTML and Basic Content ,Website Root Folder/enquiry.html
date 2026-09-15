@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mpho's Bakery | Enquiry</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Website header -->
+    <header>
+        <h1>Mpho's Bakery</h1>
+        <p>Freshly Baked with Love</p>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Enquiry form -->
+    <main>
+
+        <section>
+            <h2>Product Enquiry</h2>
+
+            <p>
+                Complete the form below if you would like to enquire
+                about one of our products or services.
+            </p>
+
+            <form action="#" method="post">
+
+                <!-- Customer name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <!-- Customer email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <!-- Phone number -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <br><br>
+
+                <!-- Product selection -->
+                <label for="product">Product Required:</label>
+
+                <select id="product" name="product">
+                    <option value="birthday-cake">Birthday Cake</option>
+                    <option value="wedding-cake">Wedding Cake</option>
+                    <option value="cupcakes">Cupcakes</option>
+                    <option value="bread">Bread</option>
+                    <option value="biscuits">Biscuits</option>
+                </select>
+
+                <br><br>
+
+                <!-- Preferred date -->
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+
+                <br><br>
+
+                <!-- Additional message -->
+                <label for="message">Additional Information:</label>
+                <br>
+
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          cols="40"
+                          placeholder="Tell us about your order..."></textarea>
+
+                <br><br>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Enquiry</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mpho's Bakery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
